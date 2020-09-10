@@ -1,0 +1,236 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Archivo', 'sans-serif';
+}
+
+ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+hr {
+  color: #F8F8F8;
+  width: 40%;
+  margin: 3rem auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.blue {
+  color: #647B96;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+main {
+  width: 90%;
+  margin: 5rem auto;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 7rem;
+}
+
+header section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header section article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+header section article p {
+  position: absolute;
+  border: 7px red solid;
+  background-color: red;
+  border-radius: 50%;
+  left: 80%;
+}
+
+header section img {
+  margin: 1rem;
+}
+
+#firstDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#firstDiv article {
+  margin: 2rem;
+}
+
+#data {
+  width: 50%;
+  margin: auto;
+  background-color: #F8F8F8;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#data .category {
+  color: #656565;
+}
+
+#data #middle {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  padding: 0 3rem;
+  margin: 0;
+}
+
+#topArticle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#mainImage {
+  width: 100%;
+}
+
+#mainContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+}
+
+#mainContent div {
+  width: 50%;
+}
+
+#mainContent div ul {
+  padding-left: 0;
+}
+
+#mainContent div ul p {
+  color: #656565;
+}
+
+#mainContent div ul li {
+  width: 50%;
+}
+
+#details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#details li {
+  font-size: 1.4rem;
+  color: #656565;
+  margin-bot: 3rem;
+}
+
+#botNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#botNav ul li {
+  margin: .5rem;
+}
+
+#cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: auto;
+}
+
+#cards .card {
+  min: 290px;
+  margin: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+}
+
+#cards .card span {
+  background-color: black;
+  color: white;
+  padding: .2rem .6rem;
+  display: inline;
+  position: absolute;
+  top: -2%;
+  left: 40%;
+  display: none;
+}
+
+#commentBox textarea {
+  width: 100%;
+  height: 200px;
+  resize: none;
+}
+
+#commentBox input {
+  margin-top: 1rem;
+  position: relative;
+  left: 93%;
+}
+
+#comments .comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 3rem;
+}
+
+#comments .comment p {
+  margin-left: 5rem;
+  color: #656565;
+}
+/*# sourceMappingURL=style.css.map */
